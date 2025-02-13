@@ -1,0 +1,13 @@
+<svg width="508" height="608" viewBox="0 0 508 608" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="129.5" cy="504" rx="104.5" ry="104" fill="#007C00"/>
+<circle cx="16.5" cy="16.5" r="16.5" transform="matrix(-1 0 0 1 465 116)" fill="#080806"/>
+<rect x="280" y="418" width="400" height="174" rx="80" fill="#2E6FE8"/>
+<rect x="280" y="399" width="271" height="127" rx="63.5" transform="rotate(-90 280 399)" fill="#F4F748"/>
+<path d="M87 313.5C87 283.4 111.4 259 141.5 259H152C187.899 259 217 288.101 217 324V368H141.5C111.4 368 87 343.6 87 313.5Z" fill="#2E6FE8"/>
+<path d="M280 54.5C280 24.4005 304.4 0 334.5 0H345C380.899 0 410 29.1015 410 65V109H334.5C304.4 109 280 84.5995 280 54.5Z" fill="#007C00"/>
+<path d="M0 22.2439C0 9.95893 9.95893 0 22.2439 0H188C210.091 0 228 17.9086 228 40V179.489C228 206.281 206.281 228 179.489 228C80.3601 228 0 147.64 0 48.5106V22.2439Z" fill="#E82E2E"/>
+<mask id="path-8-inside-1_10_381" fill="white">
+<rect x="46.9998" y="357.545" width="29.3133" height="29.3133" rx="2" transform="rotate(45 46.9998 357.545)"/>
+</mask>
+<rect x="46.9998" y="357.545" width="29.3133" height="29.3133" rx="2" transform="rotate(45 46.9998 357.545)" stroke="black" stroke-width="10" mask="url(#path-8-inside-1_10_381)"/>
+</svg>
