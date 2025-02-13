@@ -23,7 +23,7 @@ export function HeroSection() {
             </Button>
           </div>
         </div>
-        <div className="hidden sm:block relative w-full h-[300px] lg:h-full">
+        <div className="hidden lg:block relative w-full h-[300px] lg:h-full">
           <Image src="/heroImg.svg" alt="Hero image" fill className="object-cover rounded-lg" priority />
         </div>
       </div>
