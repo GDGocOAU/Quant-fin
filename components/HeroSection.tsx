@@ -24,7 +24,7 @@ export function HeroSection() {
           </div>
         </div>
         <div className="relative w-full h-[300px] lg:h-full">
-          <Image src="/placeholder.svg" alt="Hero image" fill className="object-cover rounded-lg" priority />
+          <Image src="/heroImg.svg" alt="Hero image" fill className="object-cover rounded-lg" priority />
         </div>
       </div>
     </section>

@@ -7,7 +7,7 @@ export function CommunitySection() {
       <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
         <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/About-JdMiE44xqU9ma7fomeQfrVAFlFAbLt.png"
+            src="/communityImg.png"
             alt="Students collaborating"
             fill
             className="object-cover"

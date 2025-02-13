@@ -16,7 +16,7 @@ export function FooterSection() {
             
             <div className="mb-6 md:mb-0">
               <Link href="/" className="flex items-center">
-                <Image src="/logo-placeholder.png" alt="GDG Logo" width={200} height={40} className="h-10 w-auto" />
+                <Image src="/gdgLogoSvg.svg" alt="GDG Logo" width={200} height={40} className="h-10 w-auto" />
               </Link>
             </div>
             <div className="flex flex-col justify-end gap-8 sm:gap-12 sm:flex-row">
