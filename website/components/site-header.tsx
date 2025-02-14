@@ -3,7 +3,7 @@ import { NavLink } from "@/components/NavLink"
 import { MobileNav } from "@/components/mobile-nav"
 
 const navigation = [
-  { name: "About", href: "/about" },
+  { name: "About", href: "/" },
   { name: "Team", href: "/team" },
   { name: "Resources", href: "/resources" },
   { name: "BootCamp", href: "/bootcamp" },

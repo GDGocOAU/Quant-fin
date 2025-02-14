@@ -7,7 +7,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { NavLink } from "@/components/NavLink"
 
 const navigation = [
-  { name: "About", href: "/about" },
+  { name: "About", href: "/" },
   { name: "Team", href: "/team" },
   { name: "Resources", href: "/resources" },
   { name: "BootCamp", href: "/bootcamp" },
