@@ -16,7 +16,7 @@ const resourcesHead = [
     image: "/maths.jpg",
   },
   {
-    title: "Resource2",
+    title: "Resource3",
     image: "/laptop.jpeg",
   },
 ]
@@ -61,7 +61,7 @@ const mentalMathApps = [
     title: "Math Tricks",
     image: "/maths1.jpeg",
     action: "Open",
-    bgColor: "bg-black",
+    bgColor: "bg-gray-600",
   },
 ]
 
@@ -124,7 +124,7 @@ export default function ResourcesPage() {
                       <div className="p-6 flex flex-col h-full text-white">
                         <span className="text-sm mb-2">{resource.category}</span>
                         <h3 className="text-xl font-semibold mb-auto">{resource.title}</h3>
-                        <Button variant="primary" className="w-fit mt-4">
+                        <Button variant="outlineBlue" size="lg" className="w-fit mt-4">
                           {resource.action}
                         </Button>
                       </div>
@@ -157,7 +157,7 @@ export default function ResourcesPage() {
                       <div className="p-6 flex flex-col h-full text-white">
                         <span className="text-sm mb-2">{app.category}</span>
                         <h3 className="text-xl font-semibold mb-auto">{app.title}</h3>
-                        <Button variant="primary" className="w-fit mt-4">
+                        <Button variant="outlineBlue" size="lg" className="w-fit mt-4">
                           {app.action}
                         </Button>
                       </div>
@@ -190,7 +190,7 @@ export default function ResourcesPage() {
                       <div className="p-6 flex flex-col h-full text-white">
                         <span className="text-sm mb-2">{game.category}</span>
                         <h3 className="text-xl font-semibold mb-auto">{game.title}</h3>
-                        <Button variant="primary" className="w-fit mt-4">
+                        <Button variant="outlineBlue" size="lg" className="w-fit mt-4">
                           {game.action}
                         </Button>
                       </div>
@@ -202,12 +202,12 @@ export default function ResourcesPage() {
           </section>
 
           {/* Sponsorship Section */}
-          <section className="py-12 lg:py-24 text-center">
+          <section className="py-12 lg:py-24 text-center bg-[#F4F6F8] bg-[url(/gdgLogo.png)] bg-no-repeat bg-center bg-contain">
             <h2 className="text-3xl font-bold mb-4">Sponsorship and Partnership</h2>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
               We are actively looking for sponsorships! If you are interested, kindly email us
             </p>
-            <Button variant="primary" size="lg">
+            <Button variant="outlineBlue" size="lg">
               Contact us
             </Button>
           </section>
