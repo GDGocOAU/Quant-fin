@@ -4,6 +4,7 @@ import { SiteHeader } from "@/components/site-header"
 import { FooterSection } from "@/components/FooterSection"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import { SponsorshipSection } from "@/components/SponsorshipSection"
 
 
 const resourcesHead = [
@@ -201,16 +202,7 @@ export default function ResourcesPage() {
             </div>
           </section>
 
-          {/* Sponsorship Section */}
-          <section className="py-12 lg:py-24 text-center bg-[#F4F6F8] bg-[url(/gdgLogo.png)] bg-no-repeat bg-center bg-contain">
-            <h2 className="text-3xl font-bold mb-4">Sponsorship and Partnership</h2>
-            <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-              We are actively looking for sponsorships! If you are interested, kindly email us
-            </p>
-            <Button variant="outlineBlue" size="lg">
-              Contact us
-            </Button>
-          </section>
+          <SponsorshipSection />
         </div>
       </main>
       <FooterSection />
