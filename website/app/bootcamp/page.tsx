@@ -54,7 +54,7 @@ export default function BootcampPage() {
               </div>
             </div>
           </div>
-          <div className="absolute top-0 right-0 bottom-0 left-1/2">
+          <div className="hidden absolute top-0 right-0 bottom-0 left-1/2 lg:block">
             <Image
               src="/manTyping2.png"
               alt="Student working on laptop"
@@ -68,7 +68,7 @@ export default function BootcampPage() {
         <SponsorshipSection />
       </main>
 
-      <FooterSection />
+      <FooterSection variant="light" />
     </div>
   )
 }
