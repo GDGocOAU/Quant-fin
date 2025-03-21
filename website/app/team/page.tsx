@@ -38,6 +38,13 @@ const teamMembers = [
     bgColor: "bg-[#DADE00]",
     size: "normal"
   },
+  {
+    name: "Mighty Odewumi (Gr1ntch)",
+    role: "Web Development Lead",
+    image: "/mighty.png",
+    bgColor: "bg-[#8f9eba]",
+    size: "small"
+  },
 ]
 
 export default function TeamPage() {
