@@ -1,10 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import { Bounce, JackInTheBox, Slide } from "react-awesome-reveal"
 
 export function HeroSection() {
   return (
-    <section className="sm:container relative py-12 lg:py-24">
+    <JackInTheBox  className="sm:container relative py-12 lg:py-24">
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center space-y-4">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
@@ -27,7 +28,7 @@ export function HeroSection() {
           <Image src="/heroImg.svg" alt="Hero image" fill className="object-cover rounded-lg" priority />
         </div>
       </div>
-    </section>
+    </JackInTheBox>
   )
 }
 

@@ -1,10 +1,11 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import Link from "next/link";
+import { Slide } from "react-awesome-reveal";
 
 export function CommunitySection() {
   return (
-    <section className="sm:container py-12 lg:py-24" id="learn-more">
+    <Slide direction="left" className="sm:container py-12 lg:py-24" id="learn-more">
       <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
         <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
           <Image
@@ -33,7 +34,7 @@ export function CommunitySection() {
           </Button>
         </div>
       </div>
-    </section>
+    </Slide>
   )
 }
 
