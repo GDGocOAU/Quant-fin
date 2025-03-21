@@ -4,6 +4,7 @@ import { CommunitySection } from "@/components/CommunitySection"
 import { SponsorshipSection } from "@/components/SponsorshipSection"
 import { NewsletterSection } from "@/components/NewsletterSection"
 import { FooterSection } from "@/components/FooterSection"
+import { Slide, Zoom } from "react-awesome-reveal";
 
 export default function Home() {
   return (
