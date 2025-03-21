@@ -19,7 +19,7 @@ export function HeroSection() {
               <Link href="#learn-more">Learn more</Link>
             </Button>
             <Button className="bg-[#E82E2E]" variant="outline" size="lg">
-              <Link href="#contact">Contact us</Link>
+              <Link href="mailto:lekanadesina@student.oauife.edu.ng">Contact us</Link>
             </Button>
           </div>
         </div>
