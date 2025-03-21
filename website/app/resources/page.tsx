@@ -6,39 +6,45 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { SponsorshipSection } from "@/components/SponsorshipSection"
 
-
 const resourcesHead = [
   {
     title: "Resource1",
     image: "/chess2.jpeg",
+    link: "",
   },
   {
     title: "Resource2",
     image: "/maths.jpg",
+    link: "",
   },
   {
     title: "Resource3",
     image: "/laptop.jpeg",
+    link: "",
   },
 ]
+
 const studyResources = [
   {
     category: "Study Material",
     title: "Study Resources for Quantitative Finance",
     image: "/laptop.jpeg",
     action: "Open",
+    link: "https://github.com/SohamDutta2002/Finance",
   },
   {
     category: "Study Material",
     title: "Quantopian Lectures",
     image: "/laptop.jpeg",
     action: "Open",
+    link: "https://gist.github.com/ih2502mk/50d8f7feb614c8676383431b056f4291",
   },
   {
     category: "Resources",
     title: "Awesome libraries and packages for Quantitative Finance",
     image: "/laptop.jpeg",
     action: "Open",
+    link: "https://github.com/wilsonfreitas/awesome-quant",
   },
 ]
 
@@ -49,6 +55,7 @@ const mentalMathApps = [
     image: "/brainNums.jpeg",
     action: "Open",
     bgColor: "bg-gray-800",
+    link: "https://arithmetic.zetamac.com/",
   },
   {
     category: "Web App",
@@ -56,6 +63,7 @@ const mentalMathApps = [
     image: "/peopleSearch.jpeg",
     action: "Open",
     bgColor: "bg-yellow-600",
+    link: "https://tradinginterview.com",
   },
   {
     category: "Application",
@@ -63,6 +71,7 @@ const mentalMathApps = [
     image: "/maths1.jpeg",
     action: "Open",
     bgColor: "bg-gray-600",
+    link: "https://play.google.com/store/apps/details?id=example.matharithmetics",
   },
 ]
 
@@ -72,6 +81,7 @@ const games = [
     title: "Play and Develop Strategies in Chess",
     image: "/chess2.jpeg",
     action: "Play Now",
+    link: "https://chess.com",
   },
 ]
 
@@ -126,7 +136,7 @@ export default function ResourcesPage() {
                         <span className="text-sm mb-2">{resource.category}</span>
                         <h3 className="text-xl font-semibold mb-auto">{resource.title}</h3>
                         <Button variant="outlineBlue" size="lg" className="w-fit mt-4">
-                          {resource.action}
+                          <Link href={resource.link}>{resource.action}</Link>
                         </Button>
                       </div>
                     </div>
@@ -159,7 +169,7 @@ export default function ResourcesPage() {
                         <span className="text-sm mb-2">{app.category}</span>
                         <h3 className="text-xl font-semibold mb-auto">{app.title}</h3>
                         <Button variant="outlineBlue" size="lg" className="w-fit mt-4">
-                          {app.action}
+                          <Link href={app.link}>{app.action}</Link>
                         </Button>
                       </div>
                     </div>
@@ -192,7 +202,7 @@ export default function ResourcesPage() {
                         <span className="text-sm mb-2">{game.category}</span>
                         <h3 className="text-xl font-semibold mb-auto">{game.title}</h3>
                         <Button variant="outlineBlue" size="lg" className="w-fit mt-4">
-                          {game.action}
+                          <Link href={game.link}>{game.action}</Link>
                         </Button>
                       </div>
                     </div>
