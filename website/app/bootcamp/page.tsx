@@ -6,6 +6,7 @@ import { FooterSection } from "@/components/FooterSection"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { SponsorshipSection } from "@/components/SponsorshipSection"
+import Link from "next/link"
 
 export default function BootcampPage() {
   return (
@@ -46,9 +47,9 @@ export default function BootcampPage() {
                     className="bg-red-600 hover:bg-red-300"
                     variant="outline"
                     size="lg"
-                    onClick={() => window.open("#", "_blank")}
+                    onClick={() => window.open("https://forms.gle/nvzLPZ4koPHpvUBdA", "_blank")}
                   >
-                    Join us Today
+                    Join Us Today
                   </Button>
                 </div>
               </div>

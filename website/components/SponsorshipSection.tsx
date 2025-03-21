@@ -9,7 +9,7 @@ export function SponsorshipSection() {
         <p className="mt-4 text-gray-500">
           We are actively looking for sponsorships! If you are interested, kindly email us
         </p>
-        <Link href="/contact">
+        <Link href="mailto:lekanadesina@student.oauife.edu.ng">
           <Button className="mt-6" variant="outlineBlue" size="lg">
             Contact us
           </Button>
