@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import Link from "next/link";
 
 export function CommunitySection() {
   return (
@@ -25,10 +26,10 @@ export function CommunitySection() {
           </p>
           <p className="text-gray-500">
             We offer a lot of activities such as professional development (e.g resume advice), reading groups and fun
-            activities like Chess, Poker, Estimator, etc.
+            activities like Chess, Poker, Estimathon, etc.
           </p>
           <Button className="w-fit" variant="outlineBlue" size="lg">
-            Join Us Today
+            <Link href="https://forms.gle/nvzLPZ4koPHpvUBdA">Join Us Today</Link>
           </Button>
         </div>
       </div>
