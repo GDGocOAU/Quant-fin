@@ -32,7 +32,7 @@ export function FooterSection({ variant = "default" }: FooterSectionProps) {
                 <h3 className="mb-2 text-sm font-bold">Navigation</h3>
                 <ul className="space-y-1">
                   <li>
-                    <Link href="/about" className={`text-sm ${textColor} ${hoverColor}`}>
+                    <Link href="/" className={`text-sm ${textColor} ${hoverColor}`}>
                       About
                     </Link>
                   </li>
