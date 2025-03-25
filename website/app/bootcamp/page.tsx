@@ -34,14 +34,14 @@ export default function BootcampPage() {
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">NATIONAL BOOTCAMP</h1>
                 <div className="space-y-4 text-lg sm:text-xl">
                   <p>
-                    GO-QFC will be starting its inaugural annual 70-day learning bootcamp for ALL students studying in
-                    Nigeria, starting in March 2025.
+                    GDG OAU Quantitative Finance Club (GO-QFC) is presenting its  inaugural annual 60-day bootcamp for ALL students studying in Nigeria, starting in late March 2025.
                   </p>
                   <p>
-                    If you are not a "fast autodidactic" student, this opportunity might not be for you. You are
-                    expected to commit roughly 5-10 hours per week depending on your knowledge background.
+                    If you are not a fast autodidact with strong quantitative background, this opportunity might not be suitable for you. You are expected to commit roughly 14-20 hours per week depending on your knowledge background.
                   </p>
-                  <p>Kindly fill this form to express your interest:</p>
+                  <p>More information, including the bootcamp timeline and detailed schedules will be released soon. 
+                    Kindly fill this form to express your interest:
+                  </p>
                 </div>
                 <div className="pt-4">
                   <Button

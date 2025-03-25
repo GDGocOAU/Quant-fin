@@ -164,7 +164,7 @@ export default function ContactPage() {
                     </div>
                     <div className="ml-4">
                       <h3 className="text-lg font-medium text-gray-900">Phone</h3>
-                      <p className="mt-1 text-gray-600">+234 123 456 7890</p>
+                      <Link href="tel:+2348145442460" className="mt-1 text-gray-600">+2348145442460</Link>
                     </div>
                   </div>
 
@@ -207,8 +207,10 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">How can I join GO-QFC?</h3>
                   <p className="text-gray-600">
-                    You can join GO-QFC by attending our meetings, subscribing to our newsletter, or registering for our
-                    bootcamp. Follow us on social media for updates on membership opportunities.
+                    Only the students of Obafemi Awolowo University are allowed to join by filling this 
+                    <Link href="https://forms.gle/dhV5vryHATQr7dBe9" className="text-blue-500"> form
+                    </Link>. 
+                    Nevertheless, our virtual events are open to all students regardless of their institutions.
                   </p>
                 </div>
 
@@ -217,14 +219,6 @@ export default function ContactPage() {
                   <p className="text-gray-600">
                     No, we welcome members from all backgrounds. However, a basic understanding of mathematics and
                     programming is helpful as quantitative finance involves both.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">How often do you organize events?</h3>
-                  <p className="text-gray-600">
-                    We organize various events throughout the academic year, including workshops, seminars, bootcamps,
-                    and networking sessions. Check our events calendar for upcoming activities.
                   </p>
                 </div>
               </div>

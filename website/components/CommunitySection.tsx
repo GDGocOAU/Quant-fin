@@ -28,7 +28,7 @@ export function CommunitySection() {
             </p>
             <p className="text-gray-500">
               We offer a lot of activities such as professional development (e.g resume advice), reading groups and fun
-              activities like Chess, Poker, Estimathon, etc.
+              activities like Chess, Estimathon, etc.
             </p>
             <Button className="w-fit" variant="outlineBlue" size="lg">
               <Link href="https://gdg.community.dev/j/dcrz8m7vx5fbp/">Join Us Today</Link>
