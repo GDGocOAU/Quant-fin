@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { SiteHeader } from "@/components/site-header"
 import { FooterSection } from "@/components/FooterSection"
+import { JackInTheBox, Slide } from "react-awesome-reveal"
 
 const teamMembers = [
   {
@@ -55,7 +56,7 @@ export default function TeamPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 
           {/* Hero */}
-          <section className="py-12 lg:py-24">
+          <JackInTheBox className="py-12 lg:py-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
@@ -69,11 +70,11 @@ export default function TeamPage() {
                 </p>
               </div>
             </div>
-          </section>
+          </JackInTheBox>
 
           {/* grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 */}
           {/* Teams*/}
-          <section className="py-12 lg:py-24 overflow-x-auto">
+          <Slide direction="left" className="py-12 lg:py-24 overflow-x-auto">
             <div className="flex space-x-6 min-w-max">
               {teamMembers.map((member, index) => (
                 <div
@@ -97,7 +98,7 @@ export default function TeamPage() {
                 </div>
               ))}
             </div>
-          </section>
+          </Slide>
         </div>
       </main>
       <FooterSection />

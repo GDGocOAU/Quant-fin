@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { SponsorshipSection } from "@/components/SponsorshipSection"
 import Link from "next/link"
+import { JackInTheBox, Slide } from "react-awesome-reveal"
 
 export default function BootcampPage() {
   return (
@@ -27,7 +28,7 @@ export default function BootcampPage() {
           </div>
 
           {/* Text Content */}
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+          <JackInTheBox className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
             <div className="grid lg:grid-cols-2 gap-12 py-16 lg:py-24 items-center">
               <div className="text-white space-y-6">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">NATIONAL BOOTCAMP</h1>
@@ -54,8 +55,8 @@ export default function BootcampPage() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="hidden absolute top-0 right-0 bottom-0 left-1/2 lg:block">
+          </JackInTheBox>
+          <Slide direction="right" className="hidden absolute top-0 right-0 bottom-0 left-1/2 lg:block">
             <Image
               src="/manTyping2.png"
               alt="Student working on laptop"
@@ -63,7 +64,7 @@ export default function BootcampPage() {
               className="object-cover"
               priority
             />
-          </div>
+          </Slide>
         </section>
 
         <SponsorshipSection />

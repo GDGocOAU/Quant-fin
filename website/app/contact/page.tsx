@@ -8,6 +8,7 @@ import { FooterSection } from "@/components/FooterSection"
 import { Button } from "@/components/ui/button"
 import { Map, Mail, Phone } from "lucide-react"
 import Link from "next/link"
+import { Fade, JackInTheBox, Slide } from "react-awesome-reveal"
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false)
@@ -54,7 +55,7 @@ export default function ContactPage() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-[#4285F4] text-white py-16 md:py-24">
+        <JackInTheBox className="bg-[#4285F4] text-white py-16 md:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl sm:text-5xl font-bold mb-6">Get in Touch</h1>
@@ -64,10 +65,15 @@ export default function ContactPage() {
               </p>
             </div>
           </div>
-        </section>
+        </JackInTheBox>
 
-        <section className="py-16 md:py-24">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <Slide
+          direction="left" 
+          className="py-16 md:py-24"
+        >
+          <div 
+            className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl"
+          >
             <div className="grid md:grid-cols-2 gap-12 lg:gap-24">
               <div>
                 <h2 className="text-3xl font-bold mb-6">Send us a Message</h2>
@@ -189,10 +195,10 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-        </section>
+        </Slide>
 
         {/* FAQ Section */}
-        <section className="py-16 bg-gray-50">
+        <Fade className="py-16 bg-gray-50">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             <div className="max-w-3xl mx-auto">
               <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
@@ -224,7 +230,7 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-        </section>
+        </Fade>
       </main>
 
       <FooterSection />
