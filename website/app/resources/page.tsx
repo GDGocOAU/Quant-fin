@@ -5,6 +5,7 @@ import { FooterSection } from "@/components/FooterSection"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import { SponsorshipSection } from "@/components/SponsorshipSection"
+import { Fade, JackInTheBox, Slide } from "react-awesome-reveal"
 
 const resourcesHead = [
   {
@@ -92,12 +93,12 @@ export default function ResourcesPage() {
       <main className="flex-1">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           {/* Resource Center */}
-          <section className="py-12 lg:py-16">
+          <JackInTheBox className="mt-6">
             <h1 className="text-4xl font-bold mb-6">Resource Center</h1>
             <p className="text-gray-600 mb-8">
-              These are the recommended books we recommend for members to deeply get involved with Quantitative Finance:
+              These are the recommended books for members to deeply get involved with Quantitative Finance:
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-12">
               {resourcesHead.map((resource) => (
                 <div key={resource.title} className="bg-white rounded-lg shadow-sm p-4">
                   <div className="aspect-[4/3] relative">
@@ -111,17 +112,17 @@ export default function ResourcesPage() {
                 </div>
               ))}
             </div>
-          </section>
+          </JackInTheBox>
 
           {/* Study Resources */}
-          <section className="py-12">
+          <Slide cascade className="">
             <div className="flex justify-between items-center mb-8">
               <h2 className="text-2xl font-bold">Study Resources</h2>
               <Link href="#" className="text-blue-600 hover:text-blue-700 flex items-center">
                 See all <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-12">
               {studyResources.map((resource) => (
                 <div key={resource.title} className="relative group overflow-hidden rounded-lg">
                   <div className="aspect-[3/2] relative">
@@ -144,17 +145,17 @@ export default function ResourcesPage() {
                 </div>
               ))}
             </div>
-          </section>
+          </Slide>
 
           {/* Mental Math Apps */}
-          <section className="py-12">
+          <Slide direction="right" className="">
             <div className="flex justify-between items-center mb-8">
               <h2 className="text-2xl font-bold">Mental Math Apps</h2>
               <Link href="#" className="text-blue-600 hover:text-blue-700 flex items-center">
                 See all <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-12">
               {mentalMathApps.map((app) => (
                 <div key={app.title} className={`relative group overflow-hidden rounded-lg ${app.bgColor}`}>
                   <div className="aspect-[3/2] relative">
@@ -177,17 +178,17 @@ export default function ResourcesPage() {
                 </div>
               ))}
             </div>
-          </section>
+          </Slide>
 
           {/* Games */}
-          <section className="py-12">
+          <Slide direction="left" className="">
             <div className="flex justify-between items-center mb-8">
               <h2 className="text-2xl font-bold">Games</h2>
               <Link href="#" className="text-blue-600 hover:text-blue-700 flex items-center">
                 See all <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-6">
               {games.map((game) => (
                 <div key={game.title} className="relative group overflow-hidden rounded-lg bg-gray-900">
                   <div className="aspect-[3/2] relative">
@@ -210,7 +211,7 @@ export default function ResourcesPage() {
                 </div>
               ))}
             </div>
-          </section>
+          </Slide>
 
           <SponsorshipSection />
         </div>
