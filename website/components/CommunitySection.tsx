@@ -31,7 +31,7 @@ export function CommunitySection() {
               activities like Chess, Poker, Estimathon, etc.
             </p>
             <Button className="w-fit" variant="outlineBlue" size="lg">
-              <Link href="https://forms.gle/nvzLPZ4koPHpvUBdA">Join Us Today</Link>
+              <Link href="https://gdg.community.dev/j/dcrz8m7vx5fbp/">Join Us Today</Link>
             </Button>
           </div>
         </div>

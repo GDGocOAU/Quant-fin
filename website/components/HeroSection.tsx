@@ -17,10 +17,10 @@ export function HeroSection() {
           </p>
           <div className="flex flex-col gap-3 min-[400px]:flex-row">
             <Button className="rounded-t-[30px] rounded-bl-[30px]" variant="primary" size="lg">
-              <Link href="#learn-more">Learn more</Link>
+              <Link href="bootcamp">Learn more</Link>
             </Button>
             <Button className="bg-[#E82E2E]" variant="outline" size="lg">
-              <Link href="mailto:lekanadesina@student.oauife.edu.ng">Contact us</Link>
+              <Link href="mailto:quantfinance.goqfc@gmail.com">Contact us</Link>
             </Button>
           </div>
         </div>

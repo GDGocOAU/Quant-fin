@@ -47,7 +47,7 @@ export default function BootcampPage() {
                     className="bg-red-600 hover:bg-red-300"
                     variant="outline"
                     size="lg"
-                    onClick={() => window.open("https://forms.gle/nvzLPZ4koPHpvUBdA", "_blank")}
+                    onClick={() => window.open("https://gdg.community.dev/j/dcrz8m7vx5fbp/", "_blank")}
                   >
                     Join Us Today
                   </Button>
