@@ -46,37 +46,22 @@ export function FooterSection({ variant = "default" }: FooterSectionProps) {
                       Team
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/bootcamp" className={`text-sm ${textColor} ${hoverColor}`}>
                       BootCamp
                     </Link>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="mb-2 text-sm font-bold">Product</h3>
-                <ul className="space-y-1">
-                  <li>
-                    <Link href="/features" className={`text-sm ${textColor} ${hoverColor}`}>
-                      Features
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/pricing" className={`text-sm ${textColor} ${hoverColor}`}>
-                      Pricing
-                    </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div>
                 <h3 className="mb-2 text-sm font-bold">Resources</h3>
                 <ul className="space-y-1">
                   <li>
-                    <Link href="/blog" className={`text-sm ${textColor} ${hoverColor}`}>
-                      Blog
+                    <Link href="/bootcamp" className={`text-sm ${textColor} ${hoverColor}`}>
+                      Bootcamp
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/user-guides" className={`text-sm ${textColor} ${hoverColor}`}>
                       User guides
                     </Link>
@@ -85,7 +70,7 @@ export function FooterSection({ variant = "default" }: FooterSectionProps) {
                     <Link href="/webinars" className={`text-sm ${textColor} ${hoverColor}`}>
                       Webinars
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -93,14 +78,14 @@ export function FooterSection({ variant = "default" }: FooterSectionProps) {
         </div>
         <div className={`border-t ${borderColor}`}>
           <div className="container flex flex-col gap-4 py-6 md:flex-row md:items-center md:justify-between">
-            <div className={`flex gap-4 text-sm ${textColor}`}>
+            {/* <div className={`flex gap-4 text-sm ${textColor}`}>
               <Link href="/privacy">Privacy</Link>
               <Link href="/terms">Terms</Link>
               <Link href="/cookies">Cookies</Link>
               <Link href="/legal">Legal</Link>
-            </div>
+            </div> */}
             <div className="flex items-center gap-4">
-              <Link href="#" className={`${textColor} ${hoverColor}`}>
+              <Link href="https://x.com/GDGOAU" className={`${textColor} ${hoverColor}`}>
                 <span className="sr-only">Twitter</span>
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
@@ -113,11 +98,13 @@ export function FooterSection({ variant = "default" }: FooterSectionProps) {
                 </svg>
               </Link>
               <Link href="#" className={`${textColor} ${hoverColor}`}>
-                <span className="sr-only">YouTube</span>
-                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z" />
-                </svg>
+                <span className="sr-only">Instagram</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
               </Link>
+              {/* <Link href="#" className={`${textColor} ${hoverColor}`}>
+                <span className="sr-only">YouTube</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+              </Link> */}
             </div>
           </div>
         </div>

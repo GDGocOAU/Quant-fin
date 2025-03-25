@@ -7,6 +7,7 @@ import { SiteHeader } from "@/components/site-header"
 import { FooterSection } from "@/components/FooterSection"
 import { Button } from "@/components/ui/button"
 import { Map, Mail, Phone } from "lucide-react"
+import Link from "next/link"
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false)
@@ -147,8 +148,7 @@ export default function ContactPage() {
                     </div>
                     <div className="ml-4">
                       <h3 className="text-lg font-medium text-gray-900">Email</h3>
-                      <p className="mt-1 text-gray-600">goqfc@gdgoau.org</p>
-                      <p className="mt-1 text-gray-600">gdg.oau@gmail.com</p>
+                      <Link className="mt-1 text-gray-600" href="mailto:quantfinance.goqfc@gmail.com">quantfinance.goqfc@gmail.com</Link>
                     </div>
                   </div>
 
