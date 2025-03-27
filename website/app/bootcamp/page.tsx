@@ -39,6 +39,23 @@ export default function BootcampPage() {
                   <p>
                     If you are not a fast autodidact with strong quantitative background, this opportunity might not be suitable for you. You are expected to commit roughly 14-20 hours per week depending on your knowledge background.
                   </p>
+
+                  <p>
+                    <span className="text-black font-bold">Selection Process</span>
+                    <br/>
+                    <span className="text-gray-900">First Stage:</span> 20 mental math quiz in 2 minutes (similar to "Optiver 80 in 8 Assessment") and 
+                    30 questions in 15 minutes. The latter is modeled after A-level mathematics and statistics syllabus. 
+                    Not more than 80 applicants will proceed to the next stage.
+                    <br/>
+                    <span className="text-gray-900">Second Stage:</span> Two-hour live proctoring examination. The questions are modeled after the 
+                    University of Cambridge <Link href="https://www.maths.cam.ac.uk/undergrad/admissions/step" className="text-slate-700 underline">STEP 3 Examination</Link>. 
+                    Not more than 40 applicants will proceed to the next stage.
+                    <br/>
+                    <span className="text-gray-900">Third Stage:</span> One-hour programming test via live proctoring. 
+                    The difficulty will  be similar to LeetCode Easy Problems. 
+                    Not more than 30 applicants will be ultimately selected for the bootcamp.
+                  </p>
+                  <p>Register before April 6th (11:59pm)</p>
                   <p>More information, including the bootcamp timeline and detailed schedules will be released soon. 
                     Kindly fill this form to express your interest:
                   </p>
