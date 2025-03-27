@@ -55,7 +55,8 @@ export default function BootcampPage() {
                     The difficulty will  be similar to LeetCode Easy Problems. 
                     Not more than 30 applicants will be ultimately selected for the bootcamp.
                   </p>
-                  <p>Register before April 6th (11:59pm)</p>
+                  <p>Register before <span className="font-bold">April 6th (11:59pm).</span></p>
+
                   <p>More information, including the bootcamp timeline and detailed schedules will be released soon. 
                     Kindly fill this form to express your interest:
                   </p>
